@@ -1,8 +1,5 @@
 function Navbar() {
-
   const basePath = import.meta.env.BASE_URL;
-
-  console.log(basePath , " %%")
 
   return (
     <>
