@@ -1,10 +1,15 @@
 function Navbar() {
+
+  const basePath = import.meta.env.BASE_URL;
+
+  console.log(basePath , " %%")
+
   return (
     <>
         <div className="navbar-container">
           <div className="left-part">
             <div className="logo">
-              <img src="../Design-experiment/vite.svg" alt="Brand Icon" />
+              <img src={`..${basePath}/vite.svg`} alt="Brand Icon" />
             </div>
 
             <div className="company-name">3D SLAYERS</div>
@@ -14,7 +19,7 @@ function Navbar() {
             <div className="username">SP-IN-DEMO</div>
 
             <div className="profile-icon">
-              <img src="../Design-experiment/people_11402198.png" alt="" />
+              <img src={`..${basePath}/people_11402198.png`} alt="" />
             </div>
           </div>
         </div>
