@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  /* 1rem = 10px  */
+  /* scroll-behavior: smooth; */
+  /* scroll-snap-type: Y proximity; */
+}
+#root {
+  position: relative;
+  background-image: url("../public/hero-ai-insurance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+  --tw-backdrop-blur: blur(4px);
+  background-color: rgba(29, 188, 202, 0.2);
+  width: 100%;
+  position: fixed;
+
+  & .left-part {
+    display: flex;
+    justify-content: space-between;
+    width: 14.5rem;
+
+    & .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .company-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.7rem;
+      color: #0ce5de;
+    }
+  }
+
+  & .right-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+
+    & .profile-icon {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & .profile-icon img {
+      width: 40%;
+      background-color: #0ce5de;
+      border-radius: 0.7rem;
+    }
+
+    & .username {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.7rem;
+      color: #0ce5de;
+    }
+  }
+}
+
+.behind-glass {
+  height: 8rem;
+  width: 100%;
+}
+
+.header-of-table {
+  margin: 0 auto;
+  margin-top: 4rem;
+  font-size: 2rem;
+
+  display: flex;
+  width: 80%;
+  background-color: rgba(29, 188, 202, 0.2);
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 0.9rem;
+  justify-content: space-between;
+
+  & .title-container {
+    color: #0ce5de;
+  }
+
+  & .search-bar {
+    & input {
+      background-color: transparent;
+      border: 1px solid #0ce5de;
+      height: 2.7rem;
+      border-radius: 0.3rem;
+      width: 31.5rem;
+      color: #0ce5de
+    }
+  }
+}
+
+table {
+  padding: 1.7rem;
+  text-align: center;
+  font-size: 1.7rem;
+  background-color: rgba(12, 229, 222, 0.75);
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 3rem;
+  border-radius: 1.3rem;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+th,
+td {
+  border-bottom: 1px solid black;
+  height: 3.9rem;
+}
+
+.details-button {
+  padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  background-color: rgb(12, 229, 222);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.add-new-claim-button {
+  padding: 0.7rem 1.1rem 0.7rem 1.1rem;
+  background-color: rgba(12 , 229 ,222 , .75);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    
+  font-size: 1.5rem;
+}
+
+.header-of-table {
+  & .title-container {
+    --tw-gradient-to: hsl(32 95% 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
