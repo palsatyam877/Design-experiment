@@ -4,7 +4,7 @@ function Navbar() {
         <div className="navbar-container">
           <div className="left-part">
             <div className="logo">
-              <img src="../Vite.png" alt="Brand Icon" />
+              <img src="../Design-experiment/vite.svg" alt="Brand Icon" />
             </div>
 
             <div className="company-name">3D SLAYERS</div>
@@ -14,7 +14,7 @@ function Navbar() {
             <div className="username">SP-IN-DEMO</div>
 
             <div className="profile-icon">
-              <img src="../people_11402198.png" alt="" />
+              <img src="../Design-experiment/people_11402198.png" alt="" />
             </div>
           </div>
         </div>
